@@ -1,0 +1,24 @@
+1.从https://github.com/nobbird/compliance下载代码
+ 
+2.解压到任意文件夹下
+ 
+3.打开软件IDEA，导入项目
+	3.1打开IDEA，点击导入项目；
+	3.2选择刚刚解压的文件夹
+	接下来一路next即可完成导入
+4.配置tomcat
+	4.1点击增加配置
+ 	4.2配置增加一个Tomcat服务
+ 	4.3配置Tomcat信息
+	首先，选择自己的Tomcat
+ 
+5.配置项目
+	点击libraries，点击+号选择文件夹下的lib包，添加lib包
+ 
+6.修复tomcat
+	点击tomcat配置（这时候猫头上应该有个红叉），点击fix修复（这是因为tomcat刚刚没有设置依赖）
+ 	点击应用即可
+ 	
+7、运行即可出现数据合规性检测工具首页
+ 
+
